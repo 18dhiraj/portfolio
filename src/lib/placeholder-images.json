@@ -1,0 +1,88 @@
+{
+  "placeholderImages": [
+    {
+      "id": "about-me-photo",
+      "description": "A portrait of a person.",
+      "imageUrl": "https://images.unsplash.com/photo-1560072362-53f3810f8b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cG9ydHJhaXQlMjBwZXJzb258ZW58MHx8fHwxNzY0NzYxOTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portrait person"
+    },
+    {
+      "id": "project-1-thumb",
+      "description": "Thumbnail for project one.",
+      "imageUrl": "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzY0NzQwMjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract tech"
+    },
+    {
+      "id": "project-1-gallery-1",
+      "description": "Gallery image 1 for project one.",
+      "imageUrl": "https://images.unsplash.com/photo-1566241440091-ec10de8db2e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWJzaXRlJTIwc2NyZWVuc2hvdHxlbnwwfHx8fDE3NjQ3ODQyNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website screenshot"
+    },
+    {
+      "id": "project-1-gallery-2",
+      "description": "Gallery image 2 for project one.",
+      "imageUrl": "https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY0NzM2MTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-2-thumb",
+      "description": "Thumbnail for project two.",
+      "imageUrl": "https://images.unsplash.com/photo-1584291527935-456e8e2dd734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwwfHx8fDE3NjQ3Mzk5NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "project-2-gallery-1",
+      "description": "Gallery image 1 for project two.",
+      "imageUrl": "https://images.unsplash.com/photo-1759661966728-4a02e3c6ed91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MHx8fHwxNzY0NjkzNjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard analytics"
+    },
+    {
+      "id": "project-3-thumb",
+      "description": "Thumbnail for project three.",
+      "imageUrl": "https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmFuZGluZyUyMGRlc2lnbnxlbnwwfHx8fDE3NjQ3ODQyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "branding design"
+    },
+    {
+      "id": "project-3-gallery-1",
+      "description": "Gallery image 1 for project three.",
+      "imageUrl": "https://images.unsplash.com/photo-1595409583957-5d1ec5869de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwdmFyaWF0aW9uc3xlbnwwfHx8fDE3NjQ3MzcxNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo variations"
+    },
+    {
+      "id": "project-4-thumb",
+      "description": "Thumbnail for project four.",
+      "imageUrl": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc2NDc1OTEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce website"
+    },
+    {
+      "id": "project-4-gallery-1",
+      "description": "Gallery image 1 for project four.",
+      "imageUrl": "https://images.unsplash.com/photo-1753973170095-09e6a8515a0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0JTIwcGFnZXxlbnwwfHx8fDE3NjQ3NDg3OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "product page"
+    },
+    {
+      "id": "project-5-thumb",
+      "description": "Thumbnail for project five.",
+      "imageUrl": "https://images.unsplash.com/photo-1764664281860-c5725fafa634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaSUyMHN0b3J5fGVufDB8fHx8MTc2NDc4NDc1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai story"
+    },
+    {
+      "id": "project-5-gallery-1",
+      "description": "Gallery image 1 for project five.",
+      "imageUrl": "https://images.unsplash.com/photo-1764664281860-c5725fafa634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaSUyMHN0b3J5fGVufDB8fHx8MTc2NDc4NDc1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai story"
+    },
+    {
+      "id": "project-6-thumb",
+      "description": "Thumbnail for project six.",
+      "imageUrl": "https://images.unsplash.com/photo-1641444473327-ea736547d7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwb3J0Zm9saW8lMjB3ZWJzaXRlfGVufDB8fHx8MTc2NDY5ODY0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portfolio website"
+    },
+    {
+      "id": "project-6-gallery-1",
+      "description": "Gallery image 1 for project six.",
+      "imageUrl": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlfGVufDB8fHx8MTc2NDY5ODY0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portfolio website"
+    }
+  ]
+}
