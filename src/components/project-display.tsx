@@ -31,7 +31,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
                       alt={`${project.title} - image ${idx + 1}`}
                       width={800}
                       height={500}
-                      className="w-full h-auto object-cover aspect-[4/2.5]"
+                      className="w-full h-auto object-cover aspect-[4/2]"
                       data-ai-hint={image.imageHint}
                     />
                   </CarouselItem>
