@@ -12,6 +12,7 @@ import { Badge } from '@/components/ui/badge';
 import { Github, ExternalLink } from 'lucide-react';
 import type { Project } from '@/lib/data';
 import { cn } from '@/lib/utils';
+import { CheckCircle } from "lucide-react";
 import { Card, CardContent } from '@/components/ui/card';
 
 export function ProjectDisplay({ project, index }: { project: Project; index: number }) {
@@ -37,7 +38,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
                   </CarouselItem>
                 ))}
               </CarouselContent>
-               {project.gallery.length > 1 && (
+              {project.gallery.length > 1 && (
                 <>
                   <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10 hidden sm:flex" />
                   <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10 hidden sm:flex" />
@@ -57,6 +58,17 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
           ))}
         </div>
         <p className="mt-4 text-muted-foreground leading-relaxed">{project.description}</p>
+        <div className="mt-4 space-y-2">
+  {project?.resp?.map((item, idx) => (
+    <div
+      key={idx}
+      className="flex items-center gap-2 text-sm text-muted-foreground"
+    >
+      <CheckCircle className="h-4 w-4 text-primary" />
+      <span>{item}</span>
+    </div>
+  ))}
+</div>
         <div className="mt-6 flex gap-4">
           {project.liveUrl && (
             <Button asChild>
@@ -69,6 +81,20 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
             <Button variant="outline" asChild>
               <Link href={project.repoUrl} target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-4 w-4" /> GitHub
+              </Link>
+            </Button>
+          )}
+          {project.androidlink && (
+            <Button asChild>
+              <Link href={project.androidlink} target="_blank" rel="noopener noreferrer">
+                <ExternalLink className="mr-2 h-4 w-4" /> Android
+              </Link>
+            </Button>
+          )}
+          {project.ioslink && (
+            <Button asChild>
+              <Link href={project.ioslink} target="_blank" rel="noopener noreferrer">
+                <ExternalLink className="mr-2 h-4 w-4" /> iOS
               </Link>
             </Button>
           )}
