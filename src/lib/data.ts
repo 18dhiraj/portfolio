@@ -91,7 +91,7 @@ export const projects: Project[] = [
   {
     id: 'proj-3',
     title: 'Safariies',
-    description: "Safarries tracks the user's location, even when the app is running in the background, to provide real-time location updates and enhance user experience.",
+    description: "Safariies tracks the user's location, even when the app is running in the background, to provide real-time location updates and enhance user experience.",
     technologies: ['React Native', 'Background Processes', 'Firebase Notifications', "Permissions"],
     thumbnail: findImage('project-3-thumb'),
     gallery: [
