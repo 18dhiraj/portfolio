@@ -161,7 +161,7 @@ export const projects: Project[] = [
 
     ],
     androidlink: 'https://play.google.com/store/apps/details?id=com.nidadanish&hl=en',
-    ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
+    // ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
 
   },
   // {
