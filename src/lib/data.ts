@@ -149,7 +149,10 @@ export const projects: Project[] = [
     technologies: ['React Native', 'CS-cart', 'Cybersource'],
     thumbnail: findImage('project-5-thumb'),
     gallery: [
-      findImage('project-5-gallery-1'),
+      requirefindImage(require('../assets/project/nida/nida1.png')),
+      requirefindImage(require('../assets/project/nida/nida2.png')),
+      requirefindImage(require('../assets/project/nida/nida3.png')),
+      requirefindImage(require('../assets/project/nida/nida4.png')),
     ],
     resp: [
       'Contributed to production React Native app used by thousands of users',
