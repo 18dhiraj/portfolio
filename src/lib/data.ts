@@ -96,6 +96,7 @@ export const projects: Project[] = [
     thumbnail: findImage('project-3-thumb'),
     gallery: [
       requirefindImage(require('../assets/project/safariies/safariis2.png')),
+      requirefindImage(require('../assets/project/safariies/safariis3.png')),
       requirefindImage(require('../assets/project/safariies/safariis.png')),
       requirefindImage(require('../assets/project/safariies/safariis1.png')),
     ],
