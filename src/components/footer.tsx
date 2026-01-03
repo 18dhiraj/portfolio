@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex items-center gap-2">
           {/* <Logo className="h-5 w-5 text-muted-foreground" /> */}
           <p className="ml-4 text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Craft Gallery. All rights reserved.
+            &copy; {new Date().getFullYear()} Dhiraj's Gallery. All rights reserved.
           </p>
         </div>
         <div className="flex items-center gap-1">

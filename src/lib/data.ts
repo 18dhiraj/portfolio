@@ -51,7 +51,7 @@ export const projects: Project[] = [
   {
     id: 'proj-1',
     title: 'Paybacck',
-    description: 'Paybacck is a platform to ensure your Start-up success.',
+    description: 'Web platform for digital project evaluation and ROI tracking.',
     technologies: ['React', 'Bootstrap', 'Paypal'],
     thumbnail: findImage('project-1-thumb'),
     gallery: [
@@ -60,9 +60,9 @@ export const projects: Project[] = [
       requirefindImage(require('../assets/project/paybacck/paybacck3.png'))
     ],
     resp: [
-      "Integration of payment methods",
-      "Encrypted forms",
-      "Re-design the Home page"
+      "Developed core React UI and business workflows",
+      "Integrated PayPal payments and subscription access",
+      "Implemented secure data encryption and role-based access"
     ],
     liveUrl: 'https://paybacck.com/',
     // repoUrl: '#',
@@ -70,7 +70,7 @@ export const projects: Project[] = [
   {
     id: 'proj-2',
     title: 'myEventpromo',
-    description: "Connecting event organisers and affiliate promoters to sell more tickets.",
+    description: "Production event planning and ticketing app with payments, refunds, and QR-based entry.",
     technologies: ['React Native', 'Stripe', 'Native Base'],
     thumbnail: findImage('project-2-thumb'),
     gallery: [
@@ -80,9 +80,9 @@ export const projects: Project[] = [
 
     ],
     resp: [
-      "Built from scratch",
-      "Stripe Integration",
-      "e-Ticket check-in"
+      "Built and shipped a production React Native app end-to-end",
+      "Integrated Stripe payments, refunds, and secure transactions",
+      "Implemented QR-based ticket check-in and real-time validation"
     ],
     androidlink: 'https://play.google.com/store/apps/details?id=com.myeventpromo&pcampaignid=web_share',
     ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
@@ -100,40 +100,67 @@ export const projects: Project[] = [
       requirefindImage(require('../assets/project/safariies/safariis1.png')),
     ],
     resp: [
-      "Built from scratch",
+      "Built and shipped a production React Native app end-to-end",
       "Location Getter (GPS Device)",
     ],
     androidlink: "https://play.google.com/store/apps/details?id=com.safariis.app&hl=en&pli=1"
   },
+  // {
+  //   id: 'proj-4',
+  //   title: 'Instablogs',
+  //   description: 'A Blogging website where you can find different types of Blogs.',
+  //   technologies: ['React Native', 'TypeScript', 'Redux', 'Firebase', "Vercel"],
+  //   thumbnail: findImage('project-4-thumb'),
+  //   gallery: [
+  //     requirefindImage(require('../assets/project/instablog/insta1.png')),
+  //     requirefindImage(require('../assets/project/instablog/insta2.png')),
+  //     requirefindImage(require('../assets/project/instablog/insta3.png'))
+  //   ],
+  //   resp: [
+  //     "Built from scratch",
+  //     "With Admin panel"
+  //   ],
+  //   liveUrl: 'https://instablogs-seven.vercel.app/',
+  // },
   {
     id: 'proj-4',
-    title: 'Instablogs',
-    description: 'A Blogging website where you can find different types of Blogs.',
+    title: 'Zing Meal',
+    description: 'Meal planning and food discovery platform with user-facing app and admin dashboard.',
     technologies: ['React Native', 'TypeScript', 'Redux', 'Firebase', "Vercel"],
     thumbnail: findImage('project-4-thumb'),
     gallery: [
-      requirefindImage(require('../assets/project/instablog/insta1.png')),
-      requirefindImage(require('../assets/project/instablog/insta2.png')),
-      requirefindImage(require('../assets/project/instablog/insta3.png'))
+      requirefindImage(require('../assets/project/zingmeal/zingmeal.png')),
+      requirefindImage(require('../assets/project/zingmeal/zingmeal1.png')),
+      requirefindImage(require('../assets/project/zingmeal/zingmeal2.png')),
+      requirefindImage(require('../assets/project/zingmeal/zingmeal3.png')),
+      requirefindImage(require('../assets/project/zingmeal/zingmeal4.png'))
     ],
     resp: [
-      "Built from scratch",
-      "With Admin panel"
+      "Built a web application for browsing meals, generating meal plans, and managing user preferences",
+      "Developed an admin panel to manage meals, categories, pricing, dietary tags, and content",
+      "Implemented authentication, data management, and scalable UI workflows using modern frontend practices"
     ],
-    liveUrl: 'https://instablogs-seven.vercel.app/',
+    liveUrl: 'https://zingmeal.com/',
   },
-  //   {
-  //   id: 'proj-5',
-  //   title: 'AI Story Generator',
-  //   description: 'A web app that uses generative AI to create short stories based on user prompts. It features a clean, minimalist interface and real-time text streaming.',
-  //   technologies: ['Next.js', 'Genkit', 'Firebase', 'Tailwind CSS'],
-  //   thumbnail: findImage('project-5-thumb'),
-  //   gallery: [
-  //     findImage('project-5-gallery-1'),
-  //   ],
-  //   liveUrl: '#',
-  //   repoUrl: '#',
-  // },
+    {
+    id: 'proj-5',
+    title: 'Nida & Danish',
+    description: 'Large-scale e-commerce app with 30,000+ products across 200+ categories.',
+    technologies: ['React Native', 'CS-cart', 'Cybersource'],
+    thumbnail: findImage('project-5-thumb'),
+    gallery: [
+      findImage('project-5-gallery-1'),
+    ],
+    resp: [
+      'Contributed to production React Native app used by thousands of users',
+      "Cybersource payment gateway",
+      "Worked on performance optimization and UI consistency"
+
+    ],
+    androidlink: 'https://play.google.com/store/apps/details?id=com.nidadanish&hl=en',
+    ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
+
+  },
   // {
   //   id: 'proj-6',
   //   title: 'Portfolio Website',
