@@ -44,7 +44,7 @@ export interface Project {
   androidlink?: string
   ioslink?: string
   resp?: string[]
-
+  category: 'web' | 'mobile';
 }
 
 export const projects: Project[] = [
@@ -65,6 +65,7 @@ export const projects: Project[] = [
       "Implemented secure data encryption and role-based access"
     ],
     liveUrl: 'https://paybacck.com/',
+    category: 'web',
     // repoUrl: '#',
   },
   {
@@ -86,7 +87,7 @@ export const projects: Project[] = [
     ],
     androidlink: 'https://play.google.com/store/apps/details?id=com.myeventpromo&pcampaignid=web_share',
     ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
-
+    category: 'mobile',
   },
   {
     id: 'proj-3',
@@ -104,25 +105,9 @@ export const projects: Project[] = [
       "Built and shipped a production React Native app end-to-end",
       "Location Getter (GPS Device)",
     ],
-    androidlink: "https://play.google.com/store/apps/details?id=com.safariis.app&hl=en&pli=1"
+    androidlink: "https://play.google.com/store/apps/details?id=com.safariis.app&hl=en&pli=1",
+    category: 'mobile',
   },
-  // {
-  //   id: 'proj-4',
-  //   title: 'Instablogs',
-  //   description: 'A Blogging website where you can find different types of Blogs.',
-  //   technologies: ['React Native', 'TypeScript', 'Redux', 'Firebase', "Vercel"],
-  //   thumbnail: findImage('project-4-thumb'),
-  //   gallery: [
-  //     requirefindImage(require('../assets/project/instablog/insta1.png')),
-  //     requirefindImage(require('../assets/project/instablog/insta2.png')),
-  //     requirefindImage(require('../assets/project/instablog/insta3.png'))
-  //   ],
-  //   resp: [
-  //     "Built from scratch",
-  //     "With Admin panel"
-  //   ],
-  //   liveUrl: 'https://instablogs-seven.vercel.app/',
-  // },
   {
     id: 'proj-4',
     title: 'Zing Meal',
@@ -142,6 +127,7 @@ export const projects: Project[] = [
       "Implemented authentication, data management, and scalable UI workflows using modern frontend practices"
     ],
     liveUrl: 'https://zingmeal.com/',
+    category: 'web',
   },
     {
     id: 'proj-5',
@@ -162,8 +148,7 @@ export const projects: Project[] = [
 
     ],
     androidlink: 'https://play.google.com/store/apps/details?id=com.nidadanish&hl=en',
-    // ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
-
+    category: 'mobile',
   },
   // {
   //   id: 'proj-6',
