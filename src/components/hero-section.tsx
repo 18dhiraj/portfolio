@@ -11,10 +11,10 @@ export function HeroSection() {
       <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-blue-500/5 rounded-full blur-3xl -z-10 opacity-30 pointer-events-none" />
 
       <div className="container relative z-10 flex flex-col items-center">
-        <div className="inline-flex items-center rounded-full border border-black/10 px-4 py-1.5 text-sm font-semibold transition-colors bg-secondary text-black hover:bg-secondary/80 mb-8 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-700">
+        {/* <div className="inline-flex items-center rounded-full border border-black/10 px-4 py-1.5 text-sm font-semibold transition-colors bg-secondary text-black hover:bg-secondary/80 mb-8 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-700">
           <span className="flex h-2 w-2 rounded-full bg-green-500 mr-2 animate-pulse" />
           Available for new projects
-        </div>
+        </div> */}
 
         <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl font-headline text-black pb-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
           Building Digital <br className="hidden sm:block" />

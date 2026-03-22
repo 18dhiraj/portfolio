@@ -99,7 +99,7 @@ export const projects: Project[] = [
       requirefindImage(require('../assets/project/safariies/safariis2.png')),
       requirefindImage(require('../assets/project/safariies/safariis3.png')),
       requirefindImage(require('../assets/project/safariies/safariis.png')),
-      requirefindImage(require('../assets/project/safariies/safariis1.png')),
+      // requirefindImage(require('../assets/project/safariies/safariis1.png')),
     ],
     resp: [
       "Built and shipped a production React Native app end-to-end",
@@ -117,9 +117,9 @@ export const projects: Project[] = [
     gallery: [
       requirefindImage(require('../assets/project/zingmeal/zingmeal.png')),
       requirefindImage(require('../assets/project/zingmeal/zingmeal1.png')),
-      requirefindImage(require('../assets/project/zingmeal/zingmeal2.png')),
+      // requirefindImage(require('../assets/project/zingmeal/zingmeal2.png')),
       requirefindImage(require('../assets/project/zingmeal/zingmeal3.png')),
-      requirefindImage(require('../assets/project/zingmeal/zingmeal4.png'))
+      // requirefindImage(require('../assets/project/zingmeal/zingmeal4.png'))
     ],
     resp: [
       "Built a web application for browsing meals, generating meal plans, and managing user preferences",
