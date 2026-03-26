@@ -52,8 +52,8 @@
 @layer utilities {
   .reveal {
     opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.8s cubic-bezier(0.2, 1, 0.3, 1);
+    transform: translateY(30px);
+    transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
   }
   
   .reveal.active {
@@ -61,9 +61,16 @@
     transform: translateY(0);
   }
 
+  .delay-0 { transition-delay: 0ms; }
   .delay-100 { transition-delay: 100ms; }
+  .delay-150 { transition-delay: 150ms; }
   .delay-200 { transition-delay: 200ms; }
   .delay-300 { transition-delay: 300ms; }
+  .delay-400 { transition-delay: 400ms; }
+  .delay-450 { transition-delay: 450ms; }
+  .delay-500 { transition-delay: 500ms; }
+  .delay-600 { transition-delay: 600ms; }
+  .delay-700 { transition-delay: 700ms; }
 
   /* Hide scrollbar for Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {

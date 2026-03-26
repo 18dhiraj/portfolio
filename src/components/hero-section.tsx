@@ -11,21 +11,21 @@ export function HeroSection() {
       <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-blue-500/5 rounded-full blur-3xl -z-10 opacity-30 pointer-events-none" />
 
       <div className="container relative z-10 flex flex-col items-center">
-        {/* <div className="inline-flex items-center rounded-full border border-black/10 px-4 py-1.5 text-sm font-semibold transition-colors bg-secondary text-black hover:bg-secondary/80 mb-8 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-700">
+        {/* <div className="inline-flex items-center rounded-full border border-black/10 px-4 py-1.5 text-sm font-semibold transition-colors bg-secondary text-black hover:bg-secondary/80 mb-8 backdrop-blur-sm reveal">
           <span className="flex h-2 w-2 rounded-full bg-green-500 mr-2 animate-pulse" />
           Available for new projects
         </div> */}
 
-        <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl font-headline text-black pb-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150">
+        <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl font-headline text-black pb-4 reveal delay-150">
           Building Digital <br className="hidden sm:block" />
           <span className="text-primary/80">Experiences.</span>
         </h1>
         
-        <p className="mx-auto max-w-[700px] text-xl text-black/60 mt-6 leading-relaxed px-4 animate-in fade-in slide-in-from-bottom-12 duration-700 delay-300">
+        <p className="mx-auto max-w-[700px] text-xl text-black/60 mt-6 leading-relaxed px-4 reveal delay-300">
           I'm Dhiraj, a Full-Stack Developer specializing in crafting robust web and mobile applications with React and React Native.
         </p>
         
-        <div className="mt-10 flex flex-wrap justify-center gap-4 animate-in fade-in slide-in-from-bottom-16 duration-700 delay-450">
+        <div className="mt-10 flex flex-wrap justify-center gap-4 reveal delay-450">
           <Button asChild size="lg" className="rounded-full px-10 h-12 text-base shadow-lg shadow-black/10 hover:shadow-black/20 bg-black text-white hover:bg-black/90 transition-all">
             <Link href="#projects">
               View My Work <MoveRight className="ml-2 h-4 w-4" />
