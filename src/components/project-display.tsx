@@ -22,7 +22,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Project Image/Carousel */}
         <div className={cn(
-          "lg:col-span-7 overflow-hidden rounded-2xl shadow-xl transition-all duration-500 group-hover:scale-[1.01] border border-border/50",
+          "lg:col-span-7 overflow-hidden rounded-2xl shadow-xl transition-all duration-1000 group-hover:scale-[1.01] border border-border/50",
           isEven ? "lg:order-1" : "lg:order-2"
         )}>
           <Card className="border-none bg-transparent overflow-hidden">
@@ -36,7 +36,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
                           src={image.imageUrl}
                           alt={`${project.title} - image ${idx + 1}`}
                           fill
-                          className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                          className="object-cover object-top transition-transform duration-1000 group-hover:scale-105"
                           data-ai-hint={image.imageHint}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
@@ -74,7 +74,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
                 </div>
               )}
             </div>
-            <h3 className="text-3xl md:text-4xl font-bold font-headline tracking-tight text-black group-hover:text-primary transition-colors">
+            <h3 className="text-3xl md:text-4xl font-bold font-headline tracking-tight text-black group-hover:text-primary transition-colors duration-500">
               {project.title}
             </h3>
           </div>
@@ -84,7 +84,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
               <Badge 
                 key={tech} 
                 variant="outline" 
-                className="bg-black/5 text-black border-black/10 font-semibold px-3 py-1 hover:bg-black/10 transition-colors"
+                className="bg-black/5 text-black border-black/10 font-semibold px-3 py-1 hover:bg-black/10 transition-colors duration-500"
               >
                 {tech}
               </Badge>
@@ -102,7 +102,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
                 className="flex items-start gap-3 text-base text-black/80 group/item"
               >
                 <div className="flex-shrink-0 pt-1.5">
-                  <CheckCircle2 className="h-4 w-4 text-primary opacity-70 group-hover/item:opacity-100 transition-opacity" />
+                  <CheckCircle2 className="h-4 w-4 text-primary opacity-70 group-hover/item:opacity-100 transition-opacity duration-500" />
                 </div>
                 <span className="leading-relaxed font-medium">{item}</span>
               </div>
@@ -111,30 +111,30 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
 
           <div className="flex flex-wrap gap-4 pt-4">
             {project.liveUrl && (
-              <Button asChild size="lg" className="rounded-full px-10 shadow-lg shadow-black/10 hover:shadow-black/20 bg-black text-white hover:bg-black/90">
+              <Button asChild size="lg" className="rounded-full px-10 shadow-lg shadow-black/10 hover:shadow-black/20 bg-black text-white hover:bg-black/90 transition-all duration-500">
                 <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
                 </Link>
               </Button>
             )}
             {project.androidlink && (
-              <Button asChild size="lg" variant="outline" className="rounded-full px-10 border-black/20 text-black hover:bg-black/5">
+              <Button asChild size="lg" variant="outline" className="rounded-full px-10 border-black/20 text-black hover:bg-black/5 transition-all duration-500">
                 <Link href={project.androidlink} target="_blank" rel="noopener noreferrer">
                   <Smartphone className="mr-2 h-4 w-4" /> Android
                 </Link>
               </Button>
             )}
             {project.ioslink && (
-              <Button asChild size="lg" variant="outline" className="rounded-full px-10 border-black/20 text-black hover:bg-black/5">
+              <Button asChild size="lg" variant="outline" className="rounded-full px-10 border-black/20 text-black hover:bg-black/5 transition-all duration-500">
                 <Link href={project.ioslink} target="_blank" rel="noopener noreferrer">
                   <Smartphone className="mr-2 h-4 w-4" /> iOS App
                 </Link>
               </Button>
             )}
             {project.repoUrl && (
-              <Button variant="ghost" asChild size="lg" className="rounded-full px-10 group/btn text-black/60 hover:text-black hover:bg-black/5">
+              <Button variant="ghost" asChild size="lg" className="rounded-full px-10 group/btn text-black/60 hover:text-black hover:bg-black/5 transition-all duration-500">
                 <Link href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-                  <Github className="mr-2 h-4 w-4 group-hover/btn:rotate-12 transition-transform" /> GitHub
+                  <Github className="mr-2 h-4 w-4 group-hover/btn:rotate-12 transition-transform duration-500" /> GitHub
                 </Link>
               </Button>
             )}
@@ -144,7 +144,7 @@ export function ProjectDisplay({ project, index }: { project: Project; index: nu
       
       {/* Decorative background element for large screens */}
       <div className={cn(
-        "absolute -z-10 top-1/2 -translate-y-1/2 w-full h-full bg-primary/[0.01] rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-1000",
+        "absolute -z-10 top-1/2 -translate-y-1/2 w-full h-full bg-primary/[0.01] rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-2000",
         isEven ? "-right-1/4" : "-left-1/4"
       )} />
     </div>

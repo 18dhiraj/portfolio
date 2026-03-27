@@ -17,7 +17,7 @@ export function AboutSection() {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-12 md:gap-20 items-center reveal delay-200">
+      <div className="flex flex-col md:flex-row gap-12 md:gap-20 items-center reveal delay-400">
         {/* Image Column */}
         <div className="w-full md:w-5/12 relative group">
           <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-[2rem] transform rotate-3 scale-105 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />

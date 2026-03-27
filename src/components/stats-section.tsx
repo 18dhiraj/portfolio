@@ -13,7 +13,7 @@ export function StatsSection() {
           {stats.map((stat, index) => (
             <div 
               key={index} 
-              className={`flex flex-col items-center justify-center text-center reveal delay-${index * 100}`}
+              className={`flex flex-col items-center justify-center text-center reveal delay-${index * 200}`}
             >
               <span className="text-5xl md:text-7xl font-bold font-headline mb-2">
                 {stat.value}

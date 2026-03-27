@@ -16,16 +16,16 @@ export function HeroSection() {
           Available for new projects
         </div> */}
 
-        <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl font-headline text-black pb-4 reveal delay-150">
+        <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl font-headline text-black pb-4 reveal delay-300">
           Building Digital <br className="hidden sm:block" />
           <span className="text-primary/80">Experiences.</span>
         </h1>
         
-        <p className="mx-auto max-w-[700px] text-xl text-black/60 mt-6 leading-relaxed px-4 reveal delay-300">
+        <p className="mx-auto max-w-[700px] text-xl text-black/60 mt-6 leading-relaxed px-4 reveal delay-600">
           I'm Dhiraj, a Full-Stack Developer specializing in crafting robust web and mobile applications with React and React Native.
         </p>
         
-        <div className="mt-10 flex flex-wrap justify-center gap-4 reveal delay-450">
+        <div className="mt-10 flex flex-wrap justify-center gap-4 reveal delay-900">
           <Button asChild size="lg" className="rounded-full px-10 h-12 text-base shadow-lg shadow-black/10 hover:shadow-black/20 bg-black text-white hover:bg-black/90 transition-all">
             <Link href="#projects">
               View My Work <MoveRight className="ml-2 h-4 w-4" />
