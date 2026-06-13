@@ -126,7 +126,7 @@ export const projects: Project[] = [
       "Developed an admin panel to manage meals, categories, pricing, dietary tags, and content",
       "Implemented authentication, data management, and scalable UI workflows using modern frontend practices"
     ],
-    liveUrl: 'https://zingmeal.com/',
+    liveUrl: 'https://zingmeal.vercel.app',
     category: 'web',
   },
     {
