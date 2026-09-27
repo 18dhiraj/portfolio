@@ -68,27 +68,27 @@ export const projects: Project[] = [
     category: 'web',
     // repoUrl: '#',
   },
-  {
-    id: 'proj-2',
-    title: 'myEventpromo',
-    description: "Production event planning and ticketing app with payments, refunds, and QR-based entry.",
-    technologies: ['React Native', 'Stripe', 'Native Base'],
-    thumbnail: findImage('project-2-thumb'),
-    gallery: [
-      requirefindImage(require('../assets/project/event/event1.png')),
-      requirefindImage(require('../assets/project/event/event2.png')),
-      requirefindImage(require('../assets/project/event/event3.png'))
+  // {
+  //   id: 'proj-2',
+  //   title: 'myEventpromo',
+  //   description: "Production event planning and ticketing app with payments, refunds, and QR-based entry.",
+  //   technologies: ['React Native', 'Stripe', 'Native Base'],
+  //   thumbnail: findImage('project-2-thumb'),
+  //   gallery: [
+  //     requirefindImage(require('../assets/project/event/event1.png')),
+  //     requirefindImage(require('../assets/project/event/event2.png')),
+  //     requirefindImage(require('../assets/project/event/event3.png'))
 
-    ],
-    resp: [
-      "Built and shipped a production React Native app end-to-end",
-      "Integrated Stripe payments, refunds, and secure transactions",
-      "Implemented QR-based ticket check-in and real-time validation"
-    ],
-    androidlink: 'https://play.google.com/store/apps/details?id=com.myeventpromo&pcampaignid=web_share',
-    ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
-    category: 'mobile',
-  },
+  //   ],
+  //   resp: [
+  //     "Built and shipped a production React Native app end-to-end",
+  //     "Integrated Stripe payments, refunds, and secure transactions",
+  //     "Implemented QR-based ticket check-in and real-time validation"
+  //   ],
+  //   androidlink: 'https://play.google.com/store/apps/details?id=com.myeventpromo&pcampaignid=web_share',
+  //   ioslink: 'https://apps.apple.com/us/app/myeventpromo/id6504923833',
+  //   category: 'mobile',
+  // },
   {
     id: 'proj-3',
     title: 'Safariies',
