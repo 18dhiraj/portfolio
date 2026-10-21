@@ -31,11 +31,11 @@ export function HeroSection() {
               View My Work <MoveRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
-          <Button asChild variant="outline" size="lg" className="rounded-full px-10 h-12 text-base backdrop-blur-sm bg-background/50 border-black/20 text-black hover:bg-black/5">
+          {/* <Button asChild variant="outline" size="lg" className="rounded-full px-10 h-12 text-base backdrop-blur-sm bg-background/50 border-black/20 text-black hover:bg-black/5">
             <Link href="#contact">
               Let's Talk
             </Link>
-          </Button>
+          </Button> */}
         </div>
       </div>
 
