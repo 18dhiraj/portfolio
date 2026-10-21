@@ -19,9 +19,9 @@ export function Header() {
             <Button variant="ghost" asChild className="rounded-full text-sm font-medium text-muted-foreground hover:text-foreground">
               <Link href="#projects">Work</Link>
             </Button>
-            <Button variant="ghost" asChild className="rounded-full text-sm font-medium text-muted-foreground hover:text-foreground">
+            {/* <Button variant="ghost" asChild className="rounded-full text-sm font-medium text-muted-foreground hover:text-foreground">
               <Link href="#contact">Contact</Link>
-            </Button>
+            </Button> */}
           </nav>
 
           <div className="flex items-center gap-2">

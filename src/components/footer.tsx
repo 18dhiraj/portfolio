@@ -23,9 +23,9 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} Dhiraj Kumar. All rights reserved.
           </p>
-          <p className="text-xs text-muted-foreground/60">
+          {/* <p className="text-xs text-muted-foreground/60">
             Built with Next.js, Tailwind CSS, and Shadcn UI.
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

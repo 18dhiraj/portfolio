@@ -1,9 +1,9 @@
 export function StatsSection() {
   const stats = [
-    { label: 'Years Experience', value: '3+' },
-    { label: 'End-to-End Builds', value: '12+' },
-    { label: 'Project Contributions', value: '29+' },
-    { label: 'Products Launched', value: '3' },
+    { label: 'Years Experience', value: '4+' },
+    { label: 'End-to-End Builds', value: '17+' },
+    { label: 'Project Contributions', value: '31+' },
+    { label: 'Products Launched', value: '3+' },
   ];
 
   return (

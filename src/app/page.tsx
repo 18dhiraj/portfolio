@@ -20,7 +20,7 @@ export default function Home() {
         <ProjectsSection />
         <StatsSection />
         <AboutSection />
-        <ContactSection />
+        {/* <ContactSection /> */}
       </main>
       <Footer />
     </div>
